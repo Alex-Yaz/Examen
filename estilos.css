@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: solid 1px;
+    display: flex;
+    justify-content: space-between;
+
+    background: rgb(25, 216, 159);
+    align-items: center;
+
+    padding: 10px;
+    padding: 25px;
+}
+
+#logoEmpresa{
+    display: flex;
+    height: 120px;
+    align-items: center;
+
+    text-align: none;
+    color: white;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+
+    margin-right: 25px;
+}
+
+#titulo{
+    font-size: 60px;
+}
+
+nav .link{
+    padding-right: 45px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+}
+
+nav .link:hover{
+    color:black;
+
+    margin-top: 50%;
+    text-shadow: 
+    0 0 5px rgb(243, 243, 247),
+    0 0 10px rgb(38, 0, 255),
+    0 0 20px rgb(25, 0, 255),
+    0 0 40px rgb(7, 30, 243),
+    0 0 80px rgb(158, 10, 226),
+    0 0 90px rgb(9, 10, 10),
+    0 0 100px rgba(38, 104, 127, 1),
+    0 0 140px rgb(15, 14, 14),
+    0 0 180px rgb(250, 249, 249);
+}
+
+body{
+    background-color: rgb(33, 100, 86);
+}
+
+/* diseños de la pagina web */
+
+#contenedor{
+    width: 80%;
+    background-color: rgb(26, 252, 177);
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.imagemes{
+    width: 150px;
+}
+
+#seccion1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.articulos{
+    text-align: center;
+}
+
+.articulos p{
+    text-align: justify;
+}
+
+#seccion2{
+    border: solid 1px;
+    margin-top: 50px;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+#articulovideo{
+    text-align: center;
+}
+
+#articulovideo p{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#seccion3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.articulos1{
+    text-align: center;
+}
+
+.articulos1 p{
+    text-align: justify;
+}
+
+#redes{
+    background-color: rgb(5, 202, 136);
+    border: 1px solid;
+    text-align: center;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
